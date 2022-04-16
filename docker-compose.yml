@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mysql:
+    container_name: mysql-node
+    image: mysql:8.0
+    volumes:
+      - ~/apps/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=apitodo
+      - MYSQL_USER=todo
+      - MYSQL_PASSWORD=todo123
+    ports:
+      - '3307:3306'
