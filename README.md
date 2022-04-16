@@ -53,6 +53,11 @@ cp .env.example .env
 Conectar ao banco de dados mysql usando as credenciais que estão no docker-compose.yml
 - Criar tabela que foi escolhida
 
+Criando as migrations 
+```
+npx prisma migrate dev
+```
+
 Rode os Seeds
 ```
 npx prisma db seed
