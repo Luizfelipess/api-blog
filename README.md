@@ -80,7 +80,31 @@ npx prisma db seed
 |POST   | /user| Cria um usuario| 
 
 Payload exemplo EM-BREVE
+New Post
+```json
+{
+    "title": "title name ",
+    "body": "Body send via api",
+    "author": "mail@mail.com"
+}
+```
+Edit Post - 
+```json
+{
+    "title": "title edit",
+    "body": "body edit"
+}
+```
 
+New user - 
+Age is Optional
+```json
+{
+    "email": "mail@mail.com",
+    "name": "name",
+    "age": 38
+}
+```
 ### Melhorias futuras
 - Criação de endpoint editar e deletar um usuario
 - Testes
