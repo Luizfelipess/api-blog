@@ -79,7 +79,8 @@ npx prisma db seed
 |GET    | /users| Busca todos os usuarios|
 |POST   | /user| Cria um usuario| 
 
-Payload exemplo EM-BREVE
+Payload example
+
 New Post
 ```json
 {
