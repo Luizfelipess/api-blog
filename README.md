@@ -45,12 +45,17 @@ Rodar o docker
 docker-compose up -d
 ```
 
-Conectar ao banco de dados mysql usando as credenciais que estão no docker-compose.yml
-- Criar tabela **tasks**
-
 Crie o arquivo .env, utilizando o .env.example como base, colocando credenciais do banco que esta no docker-compose.yml:
 ```
 cp .env.example .env
+```
+
+Conectar ao banco de dados mysql usando as credenciais que estão no docker-compose.yml
+- Criar tabela que foi escolhida
+
+Rode os Seeds
+```
+npx prisma db seed
 ```
 
 ## Documentação da API
