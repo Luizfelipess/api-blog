@@ -107,6 +107,7 @@ Age is Optional
 }
 ```
 ### Melhorias futuras
+- Docker com NodeJS
 - Criação de endpoint editar e deletar um usuario
 - Testes
 - Login
